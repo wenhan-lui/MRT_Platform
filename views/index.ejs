@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MRT Platform Checker</title>
+    <link
+      rel="icon"
+      href="./assets/MRT-Station-Logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+  </head>
+
+  <body id="body">
+    <div
+      class="container d-flex flex-column min-vh-100 max-vh-100"
+      id="mainContainer"
+    >
+      <!-- Header Section -->
+      <section>
+        <header class="d-flex flex-wrap justify-content-center pt-3 pb-2 mb-2">
+          <!-- MRT Logo -->
+          <a
+            href="/"
+            class="d-flex col-12 col-lg-6 justify-content-center justify-content-lg-start mb-3 text-decoration-none"
+          >
+            <img
+              src="./assets/coverpage.png"
+              height="32"
+            />
+          </a>
+          <!-- Navbar -->
+          <ul
+            class="nav col-12 col-lg-6 me-lg-auto mb-2 justify-content-center justify-content-lg-end mb-md-0"
+          >
+            <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+          </ul>
+        </header>
+      </section>
+      <!-- Main Body -->
+      <section class="container mainBody">
+        <div class="row">
+          <!-- Navbar -->
+          <div class="col-12">
+            <ul class="d-flex justify-content-center nav-underline">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="/EWL"
+                  id="EWL-Tab"
+                  >EWL</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/NSL" id="NSL-Tab">NSL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/CCL" id="CCL-Tab">CCL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/CEL" id="CEL-Tab">CEL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/DTL" id="DTL-Tab">DTL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/NEL" id="NEL-Tab">NEL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/TEL" id="TEL-Tab">TEL</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Listing of available stations -->
+          <div class="d-flex col-6 justify-content-center">
+            <ul class="availableListing">
+                <% if (locals.stationList) {%>
+                    <% for (let i=0; i<locals.stationList.length;i++) {%>
+                        <li class="<%-stationList[i].Code%>" name="Station"><a class="stationName" href="#"><%-stationList[i]["Station Name"]%></a></li>
+                    <%}%>
+                <%}%>
+            </ul>
+          </div>
+          <!-- Results display -->
+          <div
+            class="d-flex justify-content-center col-6 align-items-center text-white flex-column"
+          >
+            <img
+              src="https://cdn.businesstraveller.com/wp-content/uploads/fly-images/845404/668px-Singapore_MRT_logo.svg_-916x516.png"
+              height="60"
+            />
+            <p class="resultText">
+              <%if (locals.displayString) { %>
+                <%- displayString%>
+                  <% } else { %>
+                    No MRT Selected Yet!
+                    <%}%>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <section class="mt-auto">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3"
+        >
+          <p class="col-md-4 mb-0 text-white">© 2023 Wen Han</p>
+
+          <a
+            href="/"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </footer>
+      </section>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./public.js"></script>
+  </body>
+</html>

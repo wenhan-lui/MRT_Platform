@@ -1,0 +1,490 @@
+[
+    {
+        "Code": "NS1 EW24",
+        "Station Name": "Jurong East"
+    },
+    {
+        "Code": "NS2",
+        "Station Name": "Bukit Batok"
+    },
+    {
+        "Code": "NS3",
+        "Station Name": "Bukit Gombak"
+    },
+    {
+        "Code": "NS4 BP1",
+        "Station Name": "Choa Chu Kang"
+    },
+    {
+        "Code": "NS5",
+        "Station Name": "Yew Tee"
+    },
+    {
+        "Code": "NS7",
+        "Station Name": "Kranji"
+    },
+    {
+        "Code": "NS8",
+        "Station Name": "Marsiling"
+    },
+    {
+        "Code": "NS9 TE2",
+        "Station Name": "Woodlands"
+    },
+    {
+        "Code": "NS10",
+        "Station Name": "Admiralty"
+    },
+    {
+        "Code": "NS11",
+        "Station Name": "Sembawang"
+    },
+    {
+        "Code": "NS12",
+        "Station Name": "Canberra"
+    },
+    {
+        "Code": "NS13",
+        "Station Name": "Yishun"
+    },
+    {
+        "Code": "NS14",
+        "Station Name": "Khatib"
+    },
+    {
+        "Code": "NS15",
+        "Station Name": "Yio Chu Kang"
+    },
+    {
+        "Code": "NS16",
+        "Station Name": "Ang Mo Kio"
+    },
+    {
+        "Code": "NS17 CC15",
+        "Station Name": "Bishan"
+    },
+    {
+        "Code": "NS18",
+        "Station Name": "Braddell"
+    },
+    {
+        "Code": "NS19",
+        "Station Name": "Toa Payoh"
+    },
+    {
+        "Code": "NS20",
+        "Station Name": "Novena"
+    },
+    {
+        "Code": "NS21 DT11",
+        "Station Name": "Newton"
+    },
+    {
+        "Code": "NS22",
+        "Station Name": "Orchard"
+    },
+    {
+        "Code": "NS23",
+        "Station Name": "Somerset"
+    },
+    {
+        "Code": "NS24 NE6 CC1",
+        "Station Name": "Dhoby Ghaut"
+    },
+    {
+        "Code": "NS25 EW13",
+        "Station Name": "City Hall"
+    },
+    {
+        "Code": "NS26 EW14",
+        "Station Name": "Raffles Place"
+    },
+    {
+        "Code": "NS27 CE2",
+        "Station Name": "Marina Bay"
+    },
+    {
+        "Code": "NS28",
+        "Station Name": "Marina South Pier"
+    },
+    {
+        "Code": "EW1",
+        "Station Name": "Pasir Ris"
+    },
+    {
+        "Code": "EW2 DT32",
+        "Station Name": "Tampines"
+    },
+    {
+        "Code": "EW3",
+        "Station Name": "Simei"
+    },
+    {
+        "Code": "EW4 CG",
+        "Station Name": "Tanah Merah"
+    },
+    {
+        "Code": "EW5",
+        "Station Name": "Bedok"
+    },
+    {
+        "Code": "EW6",
+        "Station Name": "Kembangan"
+    },
+    {
+        "Code": "EW7",
+        "Station Name": "Eunos"
+    },
+    {
+        "Code": "EW8 CC9",
+        "Station Name": "Paya Lebar"
+    },
+    {
+        "Code": "EW9",
+        "Station Name": "Aljunied"
+    },
+    {
+        "Code": "EW10",
+        "Station Name": "Kallang"
+    },
+    {
+        "Code": "EW11",
+        "Station Name": "Lavender"
+    },
+    {
+        "Code": "EW12 DT14",
+        "Station Name": "Bugis"
+    },
+    {
+        "Code": "EW15",
+        "Station Name": "Tanjong Pagar"
+    },
+    {
+        "Code": "EW16 NE3",
+        "Station Name": "Outram Park"
+    },
+    {
+        "Code": "EW17",
+        "Station Name": "Tiong Bahru"
+    },
+    {
+        "Code": "EW18",
+        "Station Name": "Redhill"
+    },
+    {
+        "Code": "EW19",
+        "Station Name": "Queenstown"
+    },
+    {
+        "Code": "EW20",
+        "Station Name": "Commonwealth"
+    },
+    {
+        "Code": "EW21 CC22",
+        "Station Name": "Buona Vista"
+    },
+    {
+        "Code": "EW22",
+        "Station Name": "Dover"
+    },
+    {
+        "Code": "EW23",
+        "Station Name": "Clementi"
+    },
+    {
+        "Code": "EW25",
+        "Station Name": "Chinese Garden"
+    },
+    {
+        "Code": "EW26",
+        "Station Name": "Lakeside"
+    },
+    {
+        "Code": "EW27",
+        "Station Name": "Boon Lay"
+    },
+    {
+        "Code": "EW28",
+        "Station Name": "Pioneer"
+    },
+    {
+        "Code": "EW29",
+        "Station Name": "Joo Koon"
+    },
+    {
+        "Code": "EW30",
+        "Station Name": "Gul Circle"
+    },
+    {
+        "Code": "EW31",
+        "Station Name": "Tuas Crescent"
+    },
+    {
+        "Code": "EW32",
+        "Station Name": "Tuas West Road"
+    },
+    {
+        "Code": "EW33",
+        "Station Name": "Tuas Link"
+    },
+    {
+        "Code": "CG1 DT35",
+        "Station Name": "Expo"
+    },
+    {
+        "Code": "CG2",
+        "Station Name": "Changi Airport"
+    },
+    {
+        "Code": "NE1 CC29",
+        "Station Name": "HarbourFront"
+    },
+    {
+        "Code": "NE4 DT19",
+        "Station Name": "Chinatown"
+    },
+    {
+        "Code": "NE5",
+        "Station Name": "Clarke Quay"
+    },
+    {
+        "Code": "NE7 DT12",
+        "Station Name": "Little India"
+    },
+    {
+        "Code": "NE8",
+        "Station Name": "Farrer Park"
+    },
+    {
+        "Code": "NE9",
+        "Station Name": "Boon Keng"
+    },
+    {
+        "Code": "NE10",
+        "Station Name": "Potong Pasir"
+    },
+    {
+        "Code": "NE11",
+        "Station Name": "Woodleigh"
+    },
+    {
+        "Code": "NE12 CC13",
+        "Station Name": "Serangoon"
+    },
+    {
+        "Code": "NE13",
+        "Station Name": "Kovan"
+    },
+    {
+        "Code": "NE14",
+        "Station Name": "Hougang"
+    },
+    {
+        "Code": "NE15",
+        "Station Name": "Buangkok"
+    },
+    {
+        "Code": "NE16 STC",
+        "Station Name": "Sengkang"
+    },
+    {
+        "Code": "NE17 PTC",
+        "Station Name": "Punggol"
+    },
+    {
+        "Code": "CC2",
+        "Station Name": "Bras Basah"
+    },
+    {
+        "Code": "CC3",
+        "Station Name": "Esplanade"
+    },
+    {
+        "Code": "CC4 DT15",
+        "Station Name": "Promenade"
+    },
+    {
+        "Code": "CC5",
+        "Station Name": "Nicoll Highway"
+    },
+    {
+        "Code": "CC6",
+        "Station Name": "Stadium"
+    },
+    {
+        "Code": "CC7",
+        "Station Name": "Mountbatten"
+    },
+    {
+        "Code": "CC8",
+        "Station Name": "Dakota"
+    },
+    {
+        "Code": "CC10 DT26",
+        "Station Name": "MacPherson"
+    },
+    {
+        "Code": "CC11",
+        "Station Name": "Tai Seng"
+    },
+    {
+        "Code": "CC12",
+        "Station Name": "Bartley"
+    },
+    {
+        "Code": "CC14",
+        "Station Name": "Lorong Chuan"
+    },
+    {
+        "Code": "CC16",
+        "Station Name": "Marymount"
+    },
+    {
+        "Code": "CC17",
+        "Station Name": "Caldecott"
+    },
+    {
+        "Code": "CC19 DT9",
+        "Station Name": "Botanic Gardens"
+    },
+    {
+        "Code": "CC20",
+        "Station Name": "Farrer Road"
+    },
+    {
+        "Code": "CC21",
+        "Station Name": "Holland Village"
+    },
+    {
+        "Code": "CC23",
+        "Station Name": "one-north"
+    },
+    {
+        "Code": "CC24",
+        "Station Name": "Kent Ridge"
+    },
+    {
+        "Code": "CC25",
+        "Station Name": "Haw Par Villa"
+    },
+    {
+        "Code": "CC26",
+        "Station Name": "Pasir Panjang"
+    },
+    {
+        "Code": "CC27",
+        "Station Name": "Labrador Park"
+    },
+    {
+        "Code": "CC28",
+        "Station Name": "Telok Blangah"
+    },
+    {
+        "Code": "CE1 DT16",
+        "Station Name": "Bayfront"
+    },
+    {
+        "Code": "DT1 BP6",
+        "Station Name": "Bukit Panjang"
+    },
+    {
+        "Code": "DT2",
+        "Station Name": "Cashew"
+    },
+    {
+        "Code": "DT3",
+        "Station Name": "Hillview"
+    },
+    {
+        "Code": "DT5",
+        "Station Name": "Beauty World"
+    },
+    {
+        "Code": "DT6",
+        "Station Name": "King Albert Park"
+    },
+    {
+        "Code": "DT7",
+        "Station Name": "Sixth Avenue"
+    },
+    {
+        "Code": "DT8",
+        "Station Name": "Tan Kah Kee"
+    },
+    {
+        "Code": "DT10",
+        "Station Name": "Stevens"
+    },
+    {
+        "Code": "DT13",
+        "Station Name": "Rochor"
+    },
+    {
+        "Code": "DT17",
+        "Station Name": "Downtown"
+    },
+    {
+        "Code": "DT18",
+        "Station Name": "Telok Ayer"
+    },
+    {
+        "Code": "DT20",
+        "Station Name": "Fort Canning"
+    },
+    {
+        "Code": "DT21",
+        "Station Name": "Bencoolen"
+    },
+    {
+        "Code": "DT22",
+        "Station Name": "Jalan Besar"
+    },
+    {
+        "Code": "DT23",
+        "Station Name": "Bendemeer"
+    },
+    {
+        "Code": "DT24",
+        "Station Name": "Geylang Bahru"
+    },
+    {
+        "Code": "DT25",
+        "Station Name": "Mattar"
+    },
+    {
+        "Code": "DT27",
+        "Station Name": "Ubi"
+    },
+    {
+        "Code": "DT28",
+        "Station Name": "Kaki Bukit"
+    },
+    {
+        "Code": "DT29",
+        "Station Name": "Bedok North"
+    },
+    {
+        "Code": "DT30",
+        "Station Name": "Bedok Reservoir"
+    },
+    {
+        "Code": "DT31",
+        "Station Name": "Tampines West"
+    },
+    {
+        "Code": "DT33",
+        "Station Name": "Tampines East"
+    },
+    {
+        "Code": "DT34",
+        "Station Name": "Upper Changi"
+    },
+    {
+        "Code": "TE1 RTS",
+        "Station Name": "Woodlands North"
+    },
+    {
+        "Code": "TE3",
+        "Station Name": "Woodlands South"
+    }
+]
